@@ -1,0 +1,75 @@
+@font-face {
+			font-family: "HarryPotterRegular";
+			src: url("../fonts/HarryPotterRegular/HarryPotterRegular.eot");
+			src: url("../fonts/HarryPotterRegular/HarryPotterRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HarryPotterRegular/HarryPotterRegular.woff") format("woff"),
+			url("../fonts/HarryPotterRegular/HarryPotterRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+img#avatar {
+	border-radius: 50%;
+}
+.intro-text{
+	font-family: "HarryPotterRegular", sans-serif;
+	font-size: 35px;
+    letter-spacing: .5em;
+
+}
+.name-wrap{
+	margin: 30px 0;
+}
+
+.content-section {
+	
+	padding: 50px;
+}
+.about-section{
+ background: url("../img/downloads-bg.jpg") no-repeat center center scroll;	
+}
+
+.about-course p {
+text-align: left;
+}
+
+.about-course h5 {
+	margin-bottom: 5px;
+
+}
+a {
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.accordion-title {
+	font-weight: bold;
+	
+	text-align: left;
+	transition: .5s ease; 
+}
+
+.accordion-cont {
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.accordion-title > ul.accordion-cont {
+	display: none;
+}
+
+.accordion-title.active > ul.accordion-cont {
+	display: block;
+}
+
+#submenu {
+	display: none; 
+}
+
+ul {
+	list-style-type:none;
+}
+
+#title_ua.active + #submenu {
+	display: block; 
+}
